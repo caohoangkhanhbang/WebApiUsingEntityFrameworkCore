@@ -1,1 +1,81 @@
-[]
+[
+  {
+    "ContainingType": "WebApiUsingEntityFrameworkCore.Controllers.ManipulationController",
+    "Method": "GetAllSanPham",
+    "RelativePath": "api-using-ef-core/Manipulation",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiUsingEntityFrameworkCore.Controllers.ManipulationController",
+    "Method": "GetSanPhamById",
+    "RelativePath": "api-using-ef-core/Manipulation/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiUsingEntityFrameworkCore.Controllers.ManipulationController",
+    "Method": "CreateSanPham",
+    "RelativePath": "api-using-ef-core/Manipulation/create-product",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "sanPham",
+        "Type": "WebApiUsingEntityFrameworkCore.Models.SanPham",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiUsingEntityFrameworkCore.Controllers.ManipulationController",
+    "Method": "DeleteSanPham",
+    "RelativePath": "api-using-ef-core/Manipulation/delete-product/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApiUsingEntityFrameworkCore.Controllers.ManipulationController",
+    "Method": "UpdateSanPham",
+    "RelativePath": "api-using-ef-core/Manipulation/update-product/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "sanPhamNew",
+        "Type": "WebApiUsingEntityFrameworkCore.Models.SanPham",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
